@@ -1,0 +1,39 @@
+Get http://localhost:8006/account/
+######
+
+POST http://localhost:8006/account/add
+Content-Type:application/json 
+
+ {
+    "accountId": 3,
+    "accountNumber": 419853045632,
+    "accountBalance": 9021223,
+    "accountHolder": "Asha"
+    
+    
+  }
+
+####
+PUT http://localhost:8006/account/update
+Content-Type:application/json 
+
+ {
+    "accountId": 4,
+    "accountNumber": 123650078862,
+    "accountBalance": 785613,
+    "accountHolder": "Arun"
+    
+  }
+
+####
+DELETE http://localhost:8006/account/1108
+
+
+
+
+############################
+GET http://localhost:8006/account/
+
+
+####
+GET http://localhost:8006/account/2
